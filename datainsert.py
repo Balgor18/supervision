@@ -34,6 +34,7 @@ def insertfivemin():
 while i >= 0 : 
 	t = datetime.now()
 	print("i  = "+str(i)+"  time  : "+str(t))
-	time.sleep(300)
+	#time.sleep(300)
+	time.sleep(15)
 	insertfivemin()
 	i+=1
